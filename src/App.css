@@ -1,0 +1,60 @@
+:root{
+  width: 100%;
+}
+
+.page{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+main{
+  width: 90%;
+  text-align: center;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.form{
+  display: flex;
+  justify-content: center;
+  gap: 0 10px;
+}
+
+ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 15px;
+  justify-content: center ;
+}
+
+li{
+  line-height: 1.3em;
+  
+}
+
+li > h3 {
+  margin: 0.8em 0;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
